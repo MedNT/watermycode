@@ -11,15 +11,15 @@
 ## 🌟 Features
 
 - **Hydration Reminders**: Regular reminders to drink water while coding (You can't ignore it until giving it a response, sorry 😂).
-![Hydration Reminders](images/1.png)
+![Hydration Reminders](images/1.PNG)
 
 - **Customizable Settings**: Set your preferred properties: drinking interval, body weight.
 - **Hydration Tracking**: Tracks your hydration level throughout the day.
 - **Status Bar Indicators**: Shows your hydration level directly on the status bar, with custom motivational messages.
-![Status Bar Indicators](images/2.png)
-![Status Bar Indicators](images/3.png)
-![Status Bar Indicators](images/4.png)
-![Status Bar Indicators](images/5.png)
+![Status Bar Indicators](images/2.PNG)
+![Status Bar Indicators](images/3.PNG)
+![Status Bar Indicators](images/4.PNG)
+![Status Bar Indicators](images/5.PNG)
 
 - **Interactive Notifications**: A modal dialog to confirm whether you've hydrated.
 
