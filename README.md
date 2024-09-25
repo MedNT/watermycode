@@ -1,65 +1,97 @@
-# watermycode README
+# 💧 WaterMyCode [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-This is the README for your extension "watermycode". After writing up a brief description, we recommend including the following sections.
+![Version](https://img.shields.io/badge/version-1.0.0-blue) ![VSCode Marketplace](https://img.shields.io/badge/VSCode-Marketplace-yellow) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Node.js](https://img.shields.io/badge/Node.js-CommonJS-green)
 
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+**WaterMyCode** is a VSCode extension designed to help developers stay hydrated while coding! This extension reminds you to drink water at regular intervals, tracks your hydration level.
 
 ---
 
-## Working with Markdown
+## 🌟 Features
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+- **Hydration Reminders**: Regular reminders to drink water while coding (You can't ignore it until giving it a response, sorry 😂).
+![Hydration Reminders](images/1.png)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
+- **Customizable Settings**: Set your preferred properties: drinking interval, body weight.
+- **Hydration Tracking**: Tracks your hydration level throughout the day.
+- **Status Bar Indicators**: Shows your hydration level directly on the status bar, with custom motivational messages.
+![Status Bar Indicators](images/2.png)
+![Status Bar Indicators](images/3.png)
+![Status Bar Indicators](images/4.png)
+![Status Bar Indicators](images/5.png)
 
-## For more information
+- **Interactive Notifications**: A modal dialog to confirm whether you've hydrated.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+---
 
-**Enjoy!**
+## 🚀 Installation
+
+1. **Install from VSCode Marketplace**:
+   - Visit the [VSCode Marketplace](https://marketplace.visualstudio.com) and search for **WaterMyCode**.
+   - Click "Install" to add the extension to your VSCode.
+   
+2. **Manual Installation**:
+   - Download the latest release from the [Releases](https://github.com/mntcodes/watermycode/releases) page.
+   - Open VSCode and navigate to `Extensions > Install from VSIX` and select the downloaded `.vsix` file.
+
+---
+
+## 🛠️ Usage
+
+1. **Activate the Extension**:
+   Once installed, WaterMyCode runs automatically when you open VSCode. You’ll start receiving hydration reminders at your configured intervals.
+
+2. **Configure Your Preferences**:
+   You can access the configuration settings by running the command:
+   ```bash
+   > WaterMyCode: Configure
+   ```
+
+3. **Hydration Status**:
+   - The hydration status is visible in the bottom status bar.
+   - Based on your input, the status will update as you hydrate throughout the day.
+
+---
+
+## 🔧 Configuration Options
+
+- **Weight**: Set your weight to calculate the optimal water intake.
+- **Reminder Interval**: Choose how often you’d like to be reminded.
+  
+---
+
+## ▶️ Demo
+
+
+![Demo](images/usage.gif)
+
+---
+
+## 🌱 Contribution
+
+1. **Fork the repository**
+2. **Create a new branch** (`git checkout -b feature/your-feature`)
+3. **Commit your changes** (`git commit -m 'Add some feature'`)
+4. **Push to the branch** (`git push origin feature/your-feature`)
+5. **Open a pull request**
+
+Contributions, issues, and feature requests are welcome!
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) file for details.
+
+---
+
+## 💬 Contact
+
+Feel free to reach out for any questions or suggestions!  
+
+[About Me](https://mntcodes.com) <br/>
+[Twitter](https://x.com/NaciriTaoufik) <br/>
+[LinkedIn](https://www.linkedin.com/in/mednt/) <br/>
+[GitHub](https://github.com/MedNT) <br/>
+[Blog](https://mntcode.substack.com/) 

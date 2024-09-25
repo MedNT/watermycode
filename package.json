@@ -1,8 +1,15 @@
 {
 	"name": "watermycode",
 	"displayName": "waterMyCode",
-	"description": "Water Drinking Reminder Extension",
+	"description": "Reminding you to stay hydrated while coding!",
 	"version": "0.0.1",
+	"icon": "images/drink-water.png",
+	"author": "Naciri Taoufik Mohamed",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MedNT/watermycode.git"
+	},
 	"engines": {
 		"vscode": "^1.93.0"
 	},
@@ -11,7 +18,7 @@
 	],
 	"activationEvents": [],
 	"main": "./extension.js",
-	"publisher": "mntcodes.com",
+	"publisher": "NaciriTaoufikMohamed",
 	"contributes": {
 		"commands": [
 			{
@@ -40,15 +47,6 @@
 				"maximum": 150,
 				"description": "Your weight (in kilograms) to calculate how much water you need."
 			},
-			"hydrationReminder.sound": {
-				"type": "string",
-				"default": "water-drinking",
-				"enum": [
-					"water-pouring",
-					"water-drinking"
-				],
-				"description": "Choose the sound you want to play for the reminder."
-			},
 			"hydrationReminder.interval": {
 				"type": "number",
 				"default": 30,
@@ -58,10 +56,6 @@
 			}
 		}
 	},
-	"files": [
-		"sounds/water-pouring.mp3",
-		"sounds/water-drinking.mp3"
-	],
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "npm run lint",
@@ -74,8 +68,5 @@
 		"@vscode/test-cli": "^0.0.10",
 		"@vscode/test-electron": "^2.4.1",
 		"eslint": "^9.9.1"
-	},
-	"dependencies": {
-		"web-audio-api": "^0.2.2"
 	}
 }
