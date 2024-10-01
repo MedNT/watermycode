@@ -1,4 +1,5 @@
-# 💧 WaterMyCode [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+# 💧 WaterMyCode [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/MedNT/watermycode)
+Created with ❤️️ by [mntcodes.com](https://www.mntcodes.com)
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue) ![VSCode Marketplace](https://img.shields.io/badge/VSCode-Marketplace-yellow) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
